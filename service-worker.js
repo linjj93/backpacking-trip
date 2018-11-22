@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/backpackingtrip/precache-manifest.fa1170a415a3fce30f92cb68e6330ba7.js"
+  "/backpacking-trip/precache-manifest.163e63c819811a89bd41668323719696.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/backpackingtrip/index.html", {
+workbox.routing.registerNavigationRoute("/backpacking-trip/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

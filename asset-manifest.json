@@ -1,14 +1,14 @@
 {
-  "main.css": "/backpackingtrip/static/css/main.a9866cff.chunk.css",
-  "main.js": "/backpackingtrip/static/js/main.86a1c5fc.chunk.js",
-  "main.js.map": "/backpackingtrip/static/js/main.86a1c5fc.chunk.js.map",
-  "static/js/1.ee84d47c.chunk.js": "/backpackingtrip/static/js/1.ee84d47c.chunk.js",
-  "static/js/1.ee84d47c.chunk.js.map": "/backpackingtrip/static/js/1.ee84d47c.chunk.js.map",
-  "runtime~main.js": "/backpackingtrip/static/js/runtime~main.48d14a0c.js",
-  "runtime~main.js.map": "/backpackingtrip/static/js/runtime~main.48d14a0c.js.map",
-  "static/media/bags.jpg": "/backpackingtrip/static/media/bags.305b5a18.jpg",
-  "static/css/main.a9866cff.chunk.css.map": "/backpackingtrip/static/css/main.a9866cff.chunk.css.map",
-  "index.html": "/backpackingtrip/index.html",
-  "precache-manifest.fa1170a415a3fce30f92cb68e6330ba7.js": "/backpackingtrip/precache-manifest.fa1170a415a3fce30f92cb68e6330ba7.js",
-  "service-worker.js": "/backpackingtrip/service-worker.js"
+  "main.css": "/backpacking-trip/static/css/main.a9866cff.chunk.css",
+  "main.js": "/backpacking-trip/static/js/main.ab05442e.chunk.js",
+  "main.js.map": "/backpacking-trip/static/js/main.ab05442e.chunk.js.map",
+  "static/js/1.565e89c3.chunk.js": "/backpacking-trip/static/js/1.565e89c3.chunk.js",
+  "static/js/1.565e89c3.chunk.js.map": "/backpacking-trip/static/js/1.565e89c3.chunk.js.map",
+  "runtime~main.js": "/backpacking-trip/static/js/runtime~main.92cf67c1.js",
+  "runtime~main.js.map": "/backpacking-trip/static/js/runtime~main.92cf67c1.js.map",
+  "static/media/bags.jpg": "/backpacking-trip/static/media/bags.305b5a18.jpg",
+  "static/css/main.a9866cff.chunk.css.map": "/backpacking-trip/static/css/main.a9866cff.chunk.css.map",
+  "index.html": "/backpacking-trip/index.html",
+  "precache-manifest.163e63c819811a89bd41668323719696.js": "/backpacking-trip/precache-manifest.163e63c819811a89bd41668323719696.js",
+  "service-worker.js": "/backpacking-trip/service-worker.js"
 }
