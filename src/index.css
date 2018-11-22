@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #48c496;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.App {
+  background: white;
+  margin: 1% 1%;
+}
+
+
+.Nav {
+  background: lightgrey;
+
+}
+
+.Nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.Nav ul li {
+  background: lightgrey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  flex: 1;
+  text-align: center;
+  padding: 1%;
+
+
+}
+
+.Nav ul li:hover {
+  background: blue;
+}
+
+.removehyperlink:hover {
+  color: white;
+}
+
+.removehyperlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 5% 5%;
+}
+
+.Beijing {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Beijing h2 {
+  color: grey;
+}
+
+.Beijing .content {
+  display: flex;
+
+}
+
+.Beijing .photo {
+  text-align: center;
+  padding: 1%;
+  flex: 1
+}
+
+.Beijing .description {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  flex: 2;
+  padding-right: 10%;
+}
