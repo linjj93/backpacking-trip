@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/backpacking-trip/precache-manifest.163e63c819811a89bd41668323719696.js"
+  "/backpacking-trip/precache-manifest.6a003dd97d3857803e89784f6d781bf4.js"
 );
 
 workbox.clientsClaim();
