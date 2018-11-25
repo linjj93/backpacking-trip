@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #48c496;
@@ -20,66 +20,86 @@ code {
   margin: 1% 1%;
 }
 
+/* Navigation Bar Styles */
 
 .Nav {
   background: lightgrey;
-
-}
-
-.Nav ul {
   display: flex;
-  list-style: none;
-  padding: 0;
-}
-
-.Nav ul li {
-  background: lightgrey;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  flex: 1;
-  text-align: center;
-  padding: 1%;
-
+  justify-content: center;
+  align-items: center;
 
 }
 
-.Nav ul li:hover {
-  background: blue;
-}
 
 .removehyperlink:hover {
   color: white;
+  background-color: blue;
 }
 
 .removehyperlink {
   text-decoration: none;
+  text-align: center;
   font-weight: bold;
+  font-size: 1em;
   color: black;
-  padding: 5% 5%;
+  padding: 1% 1%;
+  flex: 1;
 }
+
+/* Chosen Tab Styles */
+.active {
+  background-color: tomato;
+}
+
+.active:hover {
+  background-color: tomato;
+  color: black;
+}
+
+/* General Styles */
+
+img {
+  border-radius: 5%;
+
+}
+
+
+/* Beijing Section Styles */
 
 .Beijing {
   display: flex;
   flex-direction: column;
   padding: 2%;
+  padding-top: 0;
+  padding-right: 10%;
   justify-content: space-between;
-  align-items: center;
   overflow: hidden;
+
 }
 
 .Beijing h2 {
   color: grey;
+  
 }
 
-.Beijing .content {
+.Beijing .content, .Beijing .header {
   display: flex;
+}
 
+
+.Beijing .header .dummy {
+  flex: 1;
+  padding: 1%;
+}
+
+.Beijing .header .Beijing-title {
+  flex: 2;
 }
 
 .Beijing .photo {
   text-align: center;
   padding: 1%;
-  flex: 1
+  flex: 1;
 }
 
 .Beijing .description {
@@ -88,5 +108,38 @@ code {
   text-align: justify;
   justify-content: center;
   flex: 2;
-  padding-right: 10%;
+}
+
+/* Chengdu Section Styles */
+
+.Chengdu {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: justify;
+}
+
+#chengdu-food, #dujiangyan, figcaption, #panda-center, #pandas {
+  text-align: center;
+}
+
+#panda-1, #panda-2 {
+  display: inline-block;
+  margin: 1% 1%;
+} 
+
+.sanguo, .others {
+  display: flex;
+  align-items: center;
+
+}
+
+.sanguo p, .sanguo figure, .others p, .others figure {
+  flex: 1;
+}
+
+figure {
+  text-align: center;
 }

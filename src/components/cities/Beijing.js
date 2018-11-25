@@ -6,7 +6,16 @@ class Beijing extends Component {
     render() {
         return (
             <div className = "Beijing">
-                <h2>After 6 months, it's goodbye to Beijing.</h2>
+                <div className = "header">
+                    <div className = "dummy">
+
+                    </div>
+                    <div className = "Beijing-title">
+                        <h2>After 6 months, it's goodbye to Beijing.</h2>
+                    </div>
+
+                </div>
+
                 <div className = "content">
                     <div className = "photo">
                         <img src = {Bags} alt = "day 1"/>

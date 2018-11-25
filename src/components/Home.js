@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class City extends Component {
+class Home extends Component {
     render() {
         return (
-            <div class = "City">
+            <div class = "Home">
                 insert picture followed by description
             </div>
         )
     }
 };
 
-export default City;
+export default Home;

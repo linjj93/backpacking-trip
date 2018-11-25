@@ -6,9 +6,14 @@ import {
   
 
 import Nav from "./components/Nav";
+import Home from "./components/Home";
 import Beijing from "./components/cities/Beijing";
 import Chengdu from "./components/cities/Chengdu";
-import XiAn from "./components/cities/XiAn";
+import Shaanxi from "./components/cities/Shaanxi";
+import Anhui from "./components/cities/Anhui";
+import Suhanglu from "./components/cities/Suhanglu";
+import Jeju from "./components/cities/Jeju";
+import Seoul from "./components/cities/Seoul";
 
 
 class App extends Component {
@@ -17,9 +22,14 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Nav />
+          <Route path = "/homepage" render = { () => <Home/> } />
           <Route path = "/beijing" render = { () => <Beijing/> } />
           <Route path = "/chengdu" render = { () => <Chengdu/> } />
-          <Route path = "/xian" render = { () => <XiAn/> } />
+          <Route path = "/shaanxi" render = { () => <Shaanxi/> } />
+          <Route path = "/anhui" render = { () => <Anhui/> } />
+          <Route path = "/suhanglu" render = { () => <Suhanglu/> } />
+          <Route path = "/jeju" render = { () => <Jeju/> } />
+          <Route path = "/seoul" render = { () => <Seoul/> } />
         </div>
       </BrowserRouter>
       

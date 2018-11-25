@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class XiAn extends Component {
+class Shaanxi extends Component {
     render() {
         return (
-            <div className = "XiAn">
+            <div className = "Shaanxi">
                 Talk about Xi'An here
             </div>
         )
     }
 }
 
-export default XiAn;
+export default Shaanxi;

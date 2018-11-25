@@ -5,11 +5,15 @@ class Nav extends Component {
     render() {
         return (
             <div className = "Nav">
-                <ul className = "cities-btn">
-                    <li><NavLink to = "/beijing"  className = "removehyperlink">Home</NavLink></li>
-                    <li><NavLink to = "/chengdu" className = "removehyperlink">Chengdu</NavLink></li>
-                    <li><NavLink to = "/xian" className = "removehyperlink">Xi'An</NavLink></li>
-                </ul>
+                <NavLink to = "/homepage" className = "removehyperlink">Home</NavLink>
+                <NavLink to = "/beijing" className = "removehyperlink">Beijing</NavLink>
+                <NavLink to = "/chengdu" className = "removehyperlink">Chengdu</NavLink>
+                <NavLink to = "/shaanxi" className = "removehyperlink">Xi'An/Yan'An</NavLink>
+                <NavLink to = "/anhui" className = "removehyperlink">Huangshan</NavLink>
+                <NavLink to = "/suhanglu" className = "removehyperlink">Hangzhou/Suzhou/Shanghai</NavLink>
+                <NavLink to = "/jeju" className = "removehyperlink">Jeju</NavLink>
+                <NavLink to = "/seoul" className = "removehyperlink">Seoul</NavLink>
+                <NavLink to = "/qingdao" className = "removehyperlink">Qingdao</NavLink>
             </div>
         )
     }
